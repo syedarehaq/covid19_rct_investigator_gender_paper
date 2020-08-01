@@ -1,0 +1,20 @@
+There were initially 2345 trials found for covid_trials_20200101_20200626
+We have kept 1522 trials and removed 823 trials because they do not have any investigator info in clinicaltrials.gov website.
+We have kept 1490 trials and removed 32 trials as there is no distinguishable first name because either the investigator first name is single letter or the investigator is an organization
+We have kept 1448 trials and removed 42 trials because the first names we send to genderize API could not return any identified gender
+There were initially 449 trials found for breast_cancer_trials_20200101_20200626
+We have kept 303 trials and removed 146 trials because they do not have any investigator info in clinicaltrials.gov website.
+We have kept 287 trials and removed 16 trials as there is no distinguishable first name because either the investigator first name is single letter or the investigator is an organization
+We have kept 274 trials and removed 13 trials because the first names we send to genderize API could not return any identified gender
+There were initially 272 trials found for type2_diabetes_trials_20200101_20200626
+We have kept 166 trials and removed 106 trials because they do not have any investigator info in clinicaltrials.gov website.
+We have kept 148 trials and removed 18 trials as there is no distinguishable first name because either the investigator first name is single letter or the investigator is an organization
+We have kept 139 trials and removed 9 trials because the first names we send to genderize API could not return any identified gender
+There were initially 533 trials found for type2diabetes_trials_2019010101_20191231
+We have kept 373 trials and removed 160 trials because they do not have any investigator info in clinicaltrials.gov website.
+We have kept 365 trials and removed 8 trials as there is no distinguishable first name because either the investigator first name is single letter or the investigator is an organization
+We have kept 359 trials and removed 6 trials because the first names we send to genderize API could not return any identified gender
+There were initially 839 trials found for breast_cancer_trials_20190101_20191231
+We have kept 642 trials and removed 197 trials because they do not have any investigator info in clinicaltrials.gov website.
+We have kept 609 trials and removed 33 trials as there is no distinguishable first name because either the investigator first name is single letter or the investigator is an organization
+We have kept 573 trials and removed 36 trials because the first names we send to genderize API could not return any identified gender
