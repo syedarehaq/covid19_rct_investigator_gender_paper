@@ -1,0 +1,122 @@
+These are print output from script 02_05_01
+
+covid_trials_20200101_20200626
+Principal Investigator
+   gender  Principal Investigator
+0    male                    1118
+1  female                     430
+Total = 1548
+Study Director
+   gender  Study Director
+0    male             179
+1  female              72
+Total = 251
+Study Chair
+   gender  Study Chair
+0    male          166
+1  female           76
+Total = 242
+
+breast_cancer_trials_20190101_20191231
+Principal Investigator
+   gender  Principal Investigator
+0    male                     248
+1  female                     245
+Total = 493
+
+Study Director
+   gender  Study Director
+0    male              66
+1  female              29
+Total = 95
+
+Study Chair
+   gender  Study Chair
+0    male           52
+1  female           26
+Total = 78
+
+breast_cancer_trials_20200101_20200626
+Principal Investigator
+   gender  Principal Investigator
+0  female                     156
+1    male                     131
+Total = 284
+
+Study Director
+   gender  Study Director
+0    male              24
+1  female              23
+Total = 47
+
+Study Chair
+   gender  Study Chair
+0    male           19
+1  female            9
+Total = 28
+
+type2_diabetes_trials_20200101_20200626
+Principal Investigator
+   gender  Principal Investigator
+0    male                      77
+1  female                      56
+Total = 133
+Study Director
+   gender  Study Director
+0    male              14
+1  female               4
+Total = 18
+Study Chair
+   gender  Study Chair
+0  female            7
+1    male            4
+Total = 11
+
+type2diabetes_trials_2019010101_20191231
+Principal Investigator
+   gender  Principal Investigator
+0    male                     185
+1  female                     148
+Total = 333
+Study Director
+   gender  Study Director
+0    male              44
+1  female              40
+Total = 84
+Study Chair
+   gender  Study Chair
+0    male           28
+1  female           19
+Total = 47
+
+COVID-19 (2020)
+Principal Investigator Proportion = 27.8% = 430/1548
+Study Director Proportion = 28.7% = 72/251
+Study Chair Proportion = 31.4% = 76/242
+
+Breast Cancer (2020)
+Principal Investigator Proportion = 54.92% = 156/284
+Study Director Proportion = 48.9% = 23/47
+Study Chair Proportion = 32.14% = 9/28
+
+Type2 Diabetes (2020)
+Principal Investigator Proportion = 42.1% = 56/133
+Study Director Proportion = 22.2% = 4/18
+Study Chair Proportion = 63.63% = 7/11
+
+Breast Cancer (2019)
+Principal Investigator Proportion = 49.7%% = 245/493
+Study Director Proportion = 30.5%% = 29/95
+Study Chair Proportion = 33.3% = 26.78
+
+Type2 Diabetes (2019)
+Principal Investigator Proportion = 44.44% = 148/333
+Study Director Proportion = 47.6% = 40/84
+Study Chair Proportion = 40.4% = 19/47
+
+
+
+
+
+
+

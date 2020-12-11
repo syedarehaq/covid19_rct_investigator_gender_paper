@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-from bs4 import BeautifulSoup
-import requests
 from time import sleep
 import pandas as pd
 from collections import defaultdict, Counter
@@ -18,7 +16,7 @@ output_code = "02_05_01"
 now = datetime.datetime.now().strftime("%Y%m%d")
 # %%
 ## First read the dataframe of trials
-trial_fname = "covid_trials_20200101_20200626"
+trial_fname = "type2diabetes_trials_2019010101_20191231" #"covid_trials_20200101_20200626"
 df = pd.read_csv("../input/derived/%s_trial_investigators_with_gender_and_metadata_%s.csv" %("02_04_01",trial_fname))
 dict_role_count = df["role"].value_counts().to_dict()
 # %%
@@ -42,6 +40,8 @@ for i,count_type in enumerate(["Principal Investigator", "Study Director", "Stud
     ax = axarr[i]
     df_current = df.loc[df["role"] == count_type,["gender"]]
     df_pie_chart = df_current["gender"].value_counts().reset_index().rename(columns={'index': 'gender', 0: 'count', "gender": count_type})
+    print(count_type)
+    print(df_pie_chart)
     genders, count = df_pie_chart["gender"].values, df_pie_chart[count_type].values
     colors = [color_dict[g] for g in genders]
     prob = np.array(count) / sum(count)
